@@ -1,27 +1,24 @@
 # SMTD
 
-This repository is the official project page for **SMTD: Spectral Manifold Transfer Diffusion for Partially Overlapping Hyperspectral and Multispectral Image Fusion**.
+This is the official repository for **Spectral Manifold Transfer-Diffusion for Partially Overlapping Hyperspectral and Multispectral Image Fusion**.
 
-## Status
+## Code availability
 
-The repository is currently maintained as a README-only public placeholder. The source code, configuration files, and reproduction scripts will be released after the manuscript submission is completed.
+The source code and reproduction materials will be released in this repository upon acceptance of the paper.
 
 ## Overview
 
-SMTD is designed for hyperspectral and multispectral image fusion under partially overlapping observation conditions. The method uses a two-stage diffusion-based reconstruction process with spectral manifold transfer and post-refinement to improve spatial-spectral consistency across different overlap settings.
+SMTD is an unsupervised framework for fusing low-resolution hyperspectral and high-resolution multispectral images with partial spatial overlap. It learns a scene-specific spectral basis from the observed image pair, then holds the basis fixed while recovering spatial coefficients across the full multispectral grid through observation-guided diffusion.
 
-## Planned Release
-
-The following materials are planned for release after submission:
+## Planned release
 
 - Training and inference code
-- Experiment configuration files
-- Scripts for reproducing the reported quantitative results
-- Instructions for preparing public benchmark datasets
+- Experiment configurations and scripts to reproduce the reported results
+- Instructions for preparing the benchmark datasets
 
 ## Citation
 
-Citation information will be updated after the manuscript becomes publicly available.
+Citation information will be added when the paper is publicly available.
 
 ## Contact
 
